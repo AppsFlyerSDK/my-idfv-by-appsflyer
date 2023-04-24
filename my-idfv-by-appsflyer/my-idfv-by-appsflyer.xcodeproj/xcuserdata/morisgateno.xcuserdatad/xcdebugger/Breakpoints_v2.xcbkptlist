@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F92C00EB-61A1-4B3C-BF9E-5FA0B879D44E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8B86EF0-0097-4E25-A7E2-67B80DF45535"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "my-idfv-by-appsflyer/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "shareButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8B86EF0-0097-4E25-A7E2-67B80DF45535 - 6ec6c9f7e9807a22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "my_idfv_by_appsflyer.ViewController.shareButtonClicked(Any) -&gt; ()"
+                  moduleName = "my-idfv-by-appsflyer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morisgateno/Desktop/AppsFlyer/projects/my-idfv-by-appsflyer/my-idfv-by-appsflyer/my-idfv-by-appsflyer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "210">
+               </Location>
+               <Location
+                  uuid = "F8B86EF0-0097-4E25-A7E2-67B80DF45535 - 6ec6c9f7e9807a22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "my_idfv_by_appsflyer.ViewController.shareButtonClicked(Any) -&gt; ()"
+                  moduleName = "my-idfv-by-appsflyer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/morisgateno/Desktop/AppsFlyer/projects/my-idfv-by-appsflyer/my-idfv-by-appsflyer/my-idfv-by-appsflyer/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "431">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

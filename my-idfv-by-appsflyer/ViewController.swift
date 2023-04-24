@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         vc.completionWithItemsHandler = { activityType, completed, returnedItems, activityError in
             guard completed else { return }
         }
-        vc.setValue(NSLocalizedString("AppsFlyer device info", comment: "share_email_subject"), forKey: "Subject")
+        vc.setValue(NSLocalizedString("device info", comment: "share_email_subject"), forKey: "Subject")
         DispatchQueue.main.async { [weak self] in
             self?.present(vc, animated: true, completion: nil)
         }

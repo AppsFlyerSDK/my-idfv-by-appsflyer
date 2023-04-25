@@ -29,18 +29,7 @@ class ViewController: UIViewController {
     @IBAction func shareButtonClicked(_ sender: Any) {
         let dataToShare = self.idfvLabel.text
         let vc = UIActivityViewController(activityItems: [dataToShare], applicationActivities: [])
-        
-        if UIDevice.current.userInterfaceIdiom == .pad {
-            if let popoverController = vc.popoverPresentationController {
-                popoverController.sourceRect = CGRect(x: UIScreen.main.bounds.width / 2, y: UIScreen.main.bounds.height / 2, width: 0, height: 0)
-                popoverController.sourceView = self.view
-                popoverController.permittedArrowDirections = UIPopoverArrowDirection(rawValue: 0)
-            }
-        }
-        vc.completionWithItemsHandler = { activityType, completed, returnedItems, activityError in
-            guard completed else { return }
-        }
-        vc.setValue(NSLocalizedString("device info", comment: "share_email_subject"), forKey: "Subject")
+        vc.setValue(NSLocalizedString("idfv", comment: "idfv_sharing"), forKey: "Subject")
         DispatchQueue.main.async { [weak self] in
             self?.present(vc, animated: true, completion: nil)
         }

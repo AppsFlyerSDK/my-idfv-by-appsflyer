@@ -19,11 +19,11 @@ class ViewController: UIViewController {
         idfvView.layer.masksToBounds = true
         idfvView.layer.cornerRadius = 7.0
         
-        displayIDFV()
-        
         self.shareButton.tintColor = UIColor(red: 59/255, green: 67/255, blue: 77/255, alpha: 1)
         self.shareButton.layer.masksToBounds = true
         self.shareButton.layer.cornerRadius = 15.0
+        
+        displayIDFV()
     }
 
     @IBAction func shareButtonClicked(_ sender: Any) {

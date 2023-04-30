@@ -2,14 +2,17 @@
 
 # My IDFV By Appsflyer
 
-When registering a whitelisted iOS device in the AppsFlyer dashboard (LINKTO: https://hq1.appsflyer.com/test-devices/devices), the device is configured with either IDFA or IDFV. These unique identifiers are used to recognize the device as a whitelisted one.
+## What is it?
 
-If the device is registered with IDFA, it can only be identified as a whitelisted device if the app implements ATT (App Tracking Transparency) and the user gives consent during the testing process. However, if the app doesn’t implement ATT, you can use IDFV (ID for Vendor) as an alternative.
+When registering a whitelisted iOS device in the [AppsFlyer dashboard](https://hq1.appsflyer.com/test-devices/devices), the device is configured with either IDFA or IDFV.
 
-One important thing to keep in mind when using IDFV for testing is that it will reset every time you uninstall and reinstall the app, unless another app from the same vendor is installed on the device. This is where “My IDFV by AppsFlyer” comes in.
+If the device is registered with IDFA, it will be identified as whitelisted only if the app implements ATT (App Tracking Transparency) and the user gives consent during the testing process. If the app doesn’t implement ATT, you can use IDFV (ID for Vendor) as an alternative.
+
+Using IDFV for testing can be a bit tricky, as it will reset every time you uninstall and reinstall the app, unless another app from the same vendor is installed on the device. This is where “My IDFV by AppsFlyer” comes in.
 
 “My IDFV by AppsFlyer” is a utility app that you can install on a test device to maintain the IDFV across consecutive installs of the app. By doing so, you can use IDFV for testing without any concerns.</br>
-This is done by changing the app’s bundle identifer to match the Bundle ID prefix of the app that you are testing, as explained in the How To section below.
+All you need to do is change the app’s bundle identifer to match the Bundle ID prefix of the app that you are testing, as explained in the How To section below.
+
 ## How to provision the app to your use:
 To implement the white label app, follow these steps:
 
